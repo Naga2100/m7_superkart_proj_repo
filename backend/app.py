@@ -85,4 +85,4 @@ def predict_superkart_sales_batch():
 
 # Run the Flask application in debug mode if this script is executed directly
 if __name__ == '__main__':
-    superkart_sales_predictor_api.run(debug=True)
+    superkart_sales_predictor_api.run(debug=True, host="0.0.0.0", port=7860)
